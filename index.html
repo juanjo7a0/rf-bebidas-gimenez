@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PREVIATE LP</title>   
+    <style>
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');      
+      
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    letter-spacing: 0.03em;
+    line-height: 1.6;
+}
+
+.foto {
+    background-image: url(https://gourmetdemexico.com.mx/wp-content/uploads/2019/08/como-tomar-fotos-de-bebidas.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.title {
+    text-align: center;
+    font-size: 40px;
+    color: #cf3a3a;
+    margin-top: 100px;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif ;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 40px;
+    color: #ad3232;
+    margin-top: 100px;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif ;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.container .card {
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.container .card:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.container .card img {
+    width: 330px;
+    height: 220px;
+}
+
+.container .card h4 {
+    font-weight: 600;
+}
+
+.container .card p {
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+    color: rgb(224, 24, 24);
+}
+
+.container .card a {
+    font-weight: 500;
+    text-decoration: none;
+    color: #3498db;
+}
+</style>
+
+</head>  
+
+<body class="foto">
+
+    <h1 class="title">PREVIATE LP</h1>
+      
+    <h2 class="subtitle">Tenemos todo lo que necesitas para tu previa o evento</h2>
+
+    <section>
+
+    <div class="container">
+
+        <div class="card">
+          <img src="img/img 01.jpg">
+          <h4>Fernet Branca</h4>
+          <p>El mejor Frenet para tus previas. 2000 $ARS</p>
+          <a href="#">Agregar al carrito</a>
+        </div>
+
+        <div class="card">
+            <img src="img/img 02.jpg">
+            <h4>Campari</h4>
+            <p>El mejor Campari para tus previas. 1000 $ ARS</p>
+            <a href="#">Agregar al carrito</a>
+          </div>
+
+        <div class="card">
+            <img src="img/img 03.jpg">
+            <h4>Cerveza Quilmes</h4>
+            <p>La mejor Cerveza para tus previas. 400 $ARS</p>
+            <a href="#">Agregar al carrito</a>
+          </div>
+         
+        <div class="card">
+            <img src="img/img 04.jpg">
+            <h4>Champagne Emilia</h4>
+            <p>El mejor Champagne para tus previas. 750 $ARS</p>
+            <a href="#">Agregar al carrito</a>
+          </div>
+         
+        <div class="card">
+            <img src="img/img 05.jpg">
+            <h4>Tequila Jose Cuervo</h4>
+            <p>El mejor Tequila para tus previas. 2500 $ARS</p>
+            <a href="#">Agregar al carrito</a>
+          </div>
+          
+        <div class="card">
+            <img src="img/img 06.jpg">
+            <h4>Vodka Smirnoff</h4>
+            <p>El mejor Vodka para tus previas. 1500 $ARS</p>
+            <a href="#">Agregar al carrito</a>
+          </div> 
+      </div>
+      
+      <div id="listacarrito"></div>
+
+    </section>
+     
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script> 
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./app.js"></script> 
+ 
+</body>
+</html>
